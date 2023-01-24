@@ -1,4 +1,7 @@
-# Kantacky's Website
+# Kantacky's Website in Next 13
 
-&copy; 2022 Kanta Oikawa
+## Environment Variables
 
+INSTAGRAM_API_ACCESS_TOKEN=IGQVJYdTlTc0ZAIQjJUMFczazZAuUkxnZAWYxMnJSR29yV3g2VDU4V1Rad1hMc2QyQ2xadVgxNzNzQWxaSk1GS0JnUk5pVUVSV0NpR0pFQU94bDNWNldGWnYzV292Mks4dFFqRUZAET1ln
+
+&copy; 2023 Kanta Oikawa

@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div {
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 16px 4px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 16px 4px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 12px 4px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 12px 4px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 8px 4px;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 4px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 100;
+  margin: 4px;
+}
+
+a.decorated {
+  margin: 2px;
+  padding: 2px;
+  text-decoration: none;
+  color: #696969;
+  border-bottom: dashed 1px #696969;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    color: #a0a0a0;
+    border-bottom: dashed 1px #a0a0a0;
+  }
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+main {
+  width: 100%;
+}
+
+.underTheHeader {
+  margin-top: 128px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  margin: 16px 0px;
+
+  .containerInner {
+    width: calc(100% - 32px);
+    max-width: 1168px;
+    padding: 16px;
+  }
+}
+
+.loading {
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+}

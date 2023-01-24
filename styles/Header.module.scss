@@ -1,0 +1,41 @@
+.header {
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  height: 48px;
+  padding: 8px 16px;
+
+  .headerInner {
+    display: grid;
+    grid-template-rows: 48px;
+    grid-template-columns: 48px 1fr;
+    width: calc(100% - 32px);
+    max-width: 1168px;
+
+    .logo {
+      width: 40px;
+      margin: 4px;
+      margin-right: auto;
+    }
+
+    .menu {
+      text-align: right;
+
+      a {
+        text-decoration: none;
+        color: #fafafa;
+        transition: 0.3s;
+
+        &:hover {
+          cursor: pointer;
+          color: #dcdcdc;
+        }
+      }
+
+      li {
+        display: inline-block;
+        padding: 16px 12px;
+      }
+    }
+  }
+}
